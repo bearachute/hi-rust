@@ -3,7 +3,7 @@ use std::io::{stdout, BufWriter};
 
 fn main() {
 let stdout = stdout();
-let out = b"Hello from rust land";
+let out = b"Hello from rust land!!!";
 let width = 24;
 
 let mut writer = BufWriter::new(stdout.lock());
